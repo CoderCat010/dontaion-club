@@ -135,7 +135,7 @@
   
   .c-button--gooey {
     letter-spacing: 2px;
-    border-radius: 50px;
+    border-radius: 50px 100px;
     position: relative;
     transition: all 700ms ease;
   }
@@ -267,7 +267,11 @@
   position: relative;
   }
 
-
+.dont{
+  border: 1px solid #ff0000;
+  padding: 10px 20px;
+  border-radius: 50px 100px;
+}
 
   .ftro{
     background-color: #021228;

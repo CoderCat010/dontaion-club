@@ -27,25 +27,31 @@
 </head>
 <body class="bd">
       
-        <nav class="h-[67px] backdrop-blur-sm drop-shadow-xl ... bg-white/10">
-
-            <div class="flex justify-between">
+         <nav class="min-h-[67px] backdrop-blur-sm drop-shadow-xl ... bg-white/10">
+            
+            <div class="flex md:justify-between md:flex-row">
     
-               <div class="flex gap-3">
-                <img class="w-10 h-10 mt-3 ml-10 rounded-full" src="./img/images (3).png" alt="">
-                <h1 class="mt-4 font-semibold text-[20px] text-neutral-300"><span><button class="button" data-text="Awesome">
-                    <span class="actual-text">&nbsp;DONATION&nbsp;</span>
-                    <span aria-hidden="true" class="hover-text">&nbsp;DONATION&nbsp;</span>
-                </button></span>CLUB (SPL)</h1>
+               <div class="flex lg:gap-2 gap-2 pt-3">
+                <img class="lg:w-11 lg:h-11 ml-10 lg:block hidden rounded-full" src="./img/images (3).png" alt="">
+
+                <img class="w-10 h-10 ml-2 lg:hidden block rounded-full" src="./img/nn.png" alt="">
+
+
+                <h1 class="font-semibold lg:text-[20px] text-neutral-300 lg:block hidden mt-2"><span><button class="button" data-text="Awesome">
+                    <span class="actual-text">&nbsp;Donation&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;Donation&nbsp;</span>
+                </button></span> CLUB (BD)</h1>
+
+                <h1 class="font-extrabold text-neutral-300 lg:hidden block mt-2">SAKURA CLUB (BD)</h1>
                </div>
     
-               <div>
-                <ul class="flex mt-4 mr-10 gap-16 text-[18px]">
+               <div class="pt-5 lg:ml-0 ml-12">
+                <ul class="flex lg:mr-10 lg:gap-16 lg:text-[18px] md:text-base text-sm md:gap-6 gap-3">
                     <li>
-                <a href="./index.html"><button class="button" data-text="Awesome">
+                <button class="button" data-text="Awesome">
                     <span class="actual-text">&nbsp;Home&nbsp;</span>
                     <span aria-hidden="true" class="front-text">&nbsp;Home&nbsp;</span>
-                </button></a>
+                </button>
                     </li>
     
                     <li>
@@ -56,17 +62,16 @@
                     </li>
     
                     <li>
-                        <button class="text-[20px] font-semibold text-[#ff0000]">Donate More</button>
-                        
+                        <button class="button" data-text="Awesome">
+                            <span class="actual-text">&nbsp;Donate&nbsp;</span>
+                            <span aria-hidden="true" class="front-text">&nbsp;Donate&nbsp;</span>
+                        </button>
                     </li>
-    
-
                 </ul>
                </div>
                 
             </div>
-         </nav>
-
+        </nav>
 
    <section class="sect-6 mt-16 mb-28">
 
@@ -1384,6 +1389,7 @@
 		"max-glare":0.5
 	});
    </script>
+   
 </body>
 </html>
 
