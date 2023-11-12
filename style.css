@@ -266,3 +266,82 @@
   border: 1px solid  rgba(255, 255, 255, 0.618);
   position: relative;
   }
+
+
+
+  .ftro{
+    background-color: #021228;
+    height: 785px;
+    position: relative;
+  }
+
+  .b4{
+    border-left: 1px solid  rgba(255, 255, 255, 0.618);
+    height: 100px;
+    position: relative;
+  }
+
+.footer-social-links {
+    bottom: 52px;
+    height: 54px;
+    position: absolute;
+    right: 0;
+    width: 236px;
+    color: #fff;
+}
+
+.footer-social-amoeba-svg {
+    height: 54px;
+    left: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 236px;
+}
+
+.footer-social-amoeba-path {
+    fill: #052654;
+}
+
+.footer-social-link.linkedin {
+    height: 26px;
+    left: 6px;
+    top: 11px;
+    width: 26px;
+}
+
+.footer-social-link {
+    display: block;
+    padding: 10px;
+    position: absolute;
+}
+
+.footer-social-icon-svg {
+    display: block;
+}
+
+.footer-social-icon-path {
+    fill: #fffff2;
+    transition: fill .2s;
+}
+
+.footer-social-link.twitterr {
+    height: 28px;
+    left: 64px;
+    top: 3px;
+    width: 28px;
+}
+
+.footer-social-link.youtubee {
+    height: 24px;
+    left: 123px;
+    top: 12px;
+    width: 24px;
+}
+
+.footer-social-link.github {
+    height: 34px;
+    left: 178px;
+    top: 9px;
+    width: 34px;
+}
