@@ -1381,11 +1381,23 @@
    </footer>
 
 
-   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+   <!-- <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 
    <script type="text/javascript">
 	
-	VanillaTilt.init(document.querySelectorAll(".card-maining mx-auto "), {
+	VanillaTilt.init(document.querySelectorAll(".card-maining mx-auto"), {
+		max: 10,
+		speed: 400,
+		glare: true,
+		"max-glare":0.5
+	});
+   </script> -->
+
+   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+
+<script type="text/javascript">
+	
+	VanillaTilt.init(document.querySelectorAll(".card-maining"), {
 		max: 10,
 		speed: 400,
 		glare: true,
